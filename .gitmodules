@@ -13,3 +13,42 @@
 [submodule "themes/poison"]
 	path = themes/poison
 	url = https://github.com/lukeorth/poison.git
+[submodule "themes/re-terminal"]
+	path = themes/re-terminal
+	url = git@github.com:mirus-ua/hugo-theme-re-terminal.git
+[submodule "themes/no-style-please"]
+	path = themes/no-style-please
+	url = git@github.com:hanwenguo/hugo-theme-nostyleplease.git
+[submodule "themes/paige"]
+	path = themes/paige
+	url = git@github.com:willfaught/paige.git
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = git@github.com:spf13/hyde.git
+[submodule "themes/diary"]
+	path = themes/diary
+	url = git@github.com:AmazingRise/hugo-theme-diary.git
+[submodule "themes/clarity"]
+	path = themes/clarity
+	url = git@github.com:chipzoller/hugo-clarity.git
+[submodule "themes/hugoplate"]
+	path = themes/hugoplate
+	url = git@github.com:zeon-studio/hugoplate.git
+[submodule "themes/doks"]
+	path = themes/doks
+	url = git@github.com:thuliteio/doks.git
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = git@github.com:panr/hugo-theme-terminal.git
+[submodule "themes/dusk"]
+	path = themes/dusk
+	url = git@github.com:gyorb/hugo-dusk.git
+[submodule "themes/loficode"]
+	path = themes/loficode
+	url = git@github.com:raisingpixels/loficode-hugo-theme.git
+[submodule "themes/hugo-classless"]
+	path = themes/hugo-classless
+	url = git@github.com:mozanunal/hugo-classless.git
+[submodule "themes/papermod"]
+	path = themes/papermod
+	url = git@github.com:adityatelange/hugo-PaperMod.git

@@ -1,10 +1,15 @@
-# Making Connections
+---
+layout: post
+title: 'Making Connections'
+date:   2025-10-16 19:13:23 -0400
+categories: programming
+---
 
 'What is a TCP Connection?' This seemingly simple question led to a lot of digging and a lot of learning. I've danced around networking for a long time. Like many (most?) software developers, networking is sometimes a twist, often a struggle, and never the point. 
 
-## I Hate Networking
-Just kidding. I don't inherently dislike networking. It's actually sort of fascinating and beautiful. But it's also mysterious. Counterintuitive. Hidden. Daunting. I received a rushed intro on TCP and other networking concepts early in my journey. TCP got brief attention - enough to grasp the basic idea - and little more. I saw a diagram that looked like this:
-![[diagram.jpg]]
+## Mystery
+I don't inherently dislike networking. It's actually sort of fascinating and beautiful. But it's also mysterious. Counterintuitive. Hidden. Daunting. I received a rushed intro on TCP and other networking concepts early in my journey. TCP got brief attention - enough to grasp the basic idea - and little more. I saw a diagram that looked like this:
+![[./unnamed.jpg]]
 (Credit: AI Slop. Check out that spelling...!)
 
 Since then, I have had many scenarios where this understanding wasn't enough. Troubleshooting mostly. I ran into this yet again the other day. Applications weren't talking to each other. They were on machines that were practically touching, yet might as well have been light years apart. There is a stark aloneness when you can't get machines or processes to talk. It's like a relationship that has broken down, or an argument that has finally gone too far. My frustration trumped my anxiety and I started searching for answers.
@@ -23,7 +28,7 @@ Next, I asked how I can actually look at the connections on my machine. The answ
 ## Socket to me
 Ok, a socket appears to be a generic *interface* for communication between two processes. Sockets are associated with a protocol+address+port - just like a connection. So a socket is conceptually at the same level as a connection. It bridges data from applications/processes to network communications and vice-versa. A connection is information stored on the kernel about communication with a remote host. A socket is a local file descriptor that points at that connection
 
-## Show Me State
+## Show me
 Ok. So then *netstat* is showing me the connections currently stored on my machine:
 
 ```
@@ -40,3 +45,4 @@ tcp4       0      0  10.226.245.157.60282   ord38s33-in-f10..https ESTABLISHED
 I see a column for the protocol. Clear enough. What are columns two and three? Recv-Q and Send-Q are apparently buffers, showing data that has been received or is about to be sent but hasn't made it all the way. So under normal operation these will generally be empty. Makes sense. Local address and foreign address and clear enough. State seems to make sense, intuitively, though I don't know what ESTABLISHED really means. Ok, that appears to mean that a connection is fully established between two hosts, and is ready for data transmission in either direction.
 
 Ok, so that's all pretty clear. And not that hard. Sometimes I get to the end of these dives and I think "What was my question?" It can be hard to remember what it's like to not understand this stuff. Either way, now it's more clear. Or less unclear. I'm sure this will be helpful at some point...
+
