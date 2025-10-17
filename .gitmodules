@@ -1,0 +1,15 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/ghostwriter"]
+	path = themes/ghostwriter
+	url = https://github.com/jbub/ghostwriter.git
+[submodule "themes/lowkey"]
+	path = themes/lowkey
+	url = git@github.com:nixentric/Lowkey-Hugo-Theme.git
+[submodule "themes/tailwind"]
+	path = themes/tailwind
+	url = https://github.com/tomowang/hugo-theme-tailwind.git
+[submodule "themes/poison"]
+	path = themes/poison
+	url = https://github.com/lukeorth/poison.git
