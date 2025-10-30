@@ -1,7 +1,0 @@
-baseURL = 'https://nweiler.github.io/'
-languageCode = 'en-us'
-title = 'NWLR'
-#theme = 'no-style-please'
-#theme = 'ananke'
-#theme = 'paige'
-theme = 'papermod'
