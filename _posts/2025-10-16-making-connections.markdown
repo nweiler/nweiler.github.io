@@ -9,7 +9,7 @@ categories: programming
 
 ## Mystery
 I don't inherently dislike networking. It's actually sort of fascinating and beautiful. But it's also mysterious. Counterintuitive. Hidden. Daunting. I received a rushed intro on TCP and other networking concepts early in my journey. TCP got brief attention - enough to grasp the basic idea - and little more. I saw a diagram that looked like this:
-![[./unnamed.jpg]]
+![tcp-diagram](/tcp-diagram.jpg "tcp-diagram")
 (Credit: AI Slop. Check out that spelling...!)
 
 Since then, I have had many scenarios where this understanding wasn't enough. Troubleshooting mostly. I ran into this yet again the other day. Applications weren't talking to each other. They were on machines that were practically touching, yet might as well have been light years apart. There is a stark aloneness when you can't get machines or processes to talk. It's like a relationship that has broken down, or an argument that has finally gone too far. My frustration trumped my anxiety and I started searching for answers.
